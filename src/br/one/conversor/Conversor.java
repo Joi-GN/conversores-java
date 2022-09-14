@@ -12,7 +12,14 @@ public class Conversor {
 			switch (selectedConverter) {
 				case "Conversor de Moedas":
 					String currency = JOptionPane.showInputDialog(null, "Escolha qual moeda:", "Menu", JOptionPane.PLAIN_MESSAGE, null, new Object[] {"Dólares americanos", "Euros", "Ienes"}, "Escolha").toString();
-					double input = Double.parseDouble(JOptionPane.showInputDialog("Insira um valor em reais para converter"));
+					double valueInput = Double.parseDouble(JOptionPane.showInputDialog("Insira um valor em Reais para converter"));
+					// TODO: chamar conversor de moeda
+					break;
+				case "Conversor de Temperatura":
+					String unit = JOptionPane.showInputDialog(null, "Escolha qual unidade de medida:", "Menu", JOptionPane.PLAIN_MESSAGE, null, new Object[] {"Kelvin", "Fahrenheit"}, "Escolha").toString();
+					double temperatureInput = Double.parseDouble(JOptionPane.showInputDialog("Insira um valor em Celsius para converter"));
+					//TODO: chamar conversor de temperatura
+					break;
 			}
 		}
 		
