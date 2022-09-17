@@ -29,15 +29,15 @@ public class Converter {
 										"Reais para Dólares americanos", 
 										"Reais para Euros", 
 										"Reais para Ienes",
+										"Reais para Libras Esterlinas", 
+										"Reais para Peso Argentino",
+										"Reais para Peso Chileno",
 										"Dólares americanos para Reais",
-										"Dólares americanos para Euros",
-										"Dólares americanos para Ienes",
 										"Euros para Reais",
-										"Euros para Dólares americanos",
-										"Euros para Ienes",
 										"Ienes para Reais",
-										"Ienes para Dólares americanos",
-										"Ienes para Euros",
+										"Libras Esterlinas para Reais",
+										"Peso Argentino para Reais",
+										"Peso Chileno para Reais",
 										}, "Escolha").toString();
 						break;
 						

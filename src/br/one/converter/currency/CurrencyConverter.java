@@ -9,48 +9,52 @@ public class CurrencyConverter {
 		
 		switch (currency) {
 		case "Reais para Dólares americanos": 
-			this.exchangeRate = 5.1644;
+			this.exchangeRate = 5.25;
 			this.sign = CurrencySign.DOLAR.getSign();
 			break;
 		case "Reais para Euros": 
-			this.exchangeRate = 5.1505;
+			this.exchangeRate = 5.26;
 			this.sign = CurrencySign.EURO.getSign();
 			break;
 		case "Reais para Ienes": 
-			this.exchangeRate = 0.0360;
+			this.exchangeRate = 0.037;
 			this.sign = CurrencySign.IENE.getSign();
+			break;
+		case "Reais para Libras Esterlinas":
+			this.exchangeRate = 6;
+			this.sign = CurrencySign.LIBRA.getSign();
+			break;
+		case "Reais para Peso Argentino":
+			this.exchangeRate = 0.037;
+			this.sign = CurrencySign.PESO.getSign();
+			break;
+		case "Reais para Peso Chileno":
+			this.exchangeRate = 0.0057;
+			this.sign = CurrencySign.PESO.getSign();
 			break;
 		case "Dólares americanos para Reais":
-			this.exchangeRate = 0.1936;
+			this.exchangeRate = 0.19;
 			this.sign = CurrencySign.REAL.getSign();
-			break;
-		case "Dólares americanos para Euros":
-			this.exchangeRate = 0.9974;
-			this.sign = CurrencySign.EURO.getSign();
 			break;
 		case "Euros para Reais":
-			this.exchangeRate = 0.1941;
+			this.exchangeRate = 0.19;
 			this.sign = CurrencySign.REAL.getSign();
-			break;
-		case "Euros para Dólares americanos": 
-			this.exchangeRate = 1.0027;
-			this.sign = CurrencySign.DOLAR.getSign();
-			break;
-		case "Euros para Ienes": 
-			this.exchangeRate = 0.0070;
-			this.sign = CurrencySign.IENE.getSign();
 			break;
 		case "Ienes para Reais": 
-			this.exchangeRate = 27.7519;
+			this.exchangeRate = 27.21;
 			this.sign = CurrencySign.REAL.getSign();
 			break;
-		case "Ienes para Dólares americanos": 
-			this.exchangeRate = 143.3220;
-			this.sign = CurrencySign.DOLAR.getSign();
+		case "Libras Esterlinas para Reais": 
+			this.exchangeRate = 0.17;
+			this.sign = CurrencySign.REAL.getSign();
 			break;
-		case "Ienes para Euros": 
-			this.exchangeRate = 142.9652;
-			this.sign = CurrencySign.EURO.getSign();
+		case "Peso Argentino para Reais": 
+			this.exchangeRate = 27.33;
+			this.sign = CurrencySign.REAL.getSign();
+			break;
+		case "Peso Chileno para Reais": 
+			this.exchangeRate = 175.62;
+			this.sign = CurrencySign.REAL.getSign();
 			break;
 		}
 		
