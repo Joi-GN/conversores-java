@@ -5,6 +5,13 @@ import javax.swing.JOptionPane;
 import br.one.converter.currency.CurrencyConverter;
 import br.one.converter.temperature.TemperatureConverter;
 
+/**
+ * 
+ * @author Joice Gomes
+ * @version 1.0
+ *
+ */
+
 public class Converter {
 
 	public static void main(String[] args) {
@@ -38,7 +45,8 @@ public class Converter {
 										"Libras Esterlinas para Reais",
 										"Peso Argentino para Reais",
 										"Peso Chileno para Reais",
-										}, "Escolha").toString();
+										}, 
+								"Escolha").toString();
 						break;
 						
 					case "Conversor de Temperatura":
@@ -52,7 +60,8 @@ public class Converter {
 										"Kelvin para Fahrenheit", 
 										"Fahrenheit para Célsius",
 										"Fahrenheit para Kelvin"
-										}, "Escolha").toString();
+										},
+								"Escolha").toString();
 						break;
 				}
 				
